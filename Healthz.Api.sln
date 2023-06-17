@@ -13,6 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Healthz.Api.Tests", "tests\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{2D94397C-5207-4294-BFA8-DD092953BBFA}"
 	ProjectSection(SolutionItems) = preProject
+		HealthzApi.http = HealthzApi.http
 		README.md = README.md
 	EndProjectSection
 EndProject
