@@ -1,0 +1,11 @@
+version: "3"
+services: 
+    healthzapi:
+        environment:
+            HealthCheck__MyCustomStartUpHealthCheck: "False"
+            HealthCheck__UriCheck: "https://matthewregis.dev"
+        build: 
+            context: ./src/Healthz.Api
+            dockerfile: Dockerfile
+        ports: 
+            - "8080:80"

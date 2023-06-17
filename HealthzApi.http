@@ -1,0 +1,18 @@
+@hostname=localhost
+@port=8080
+
+### Weather forecast endpoint
+
+GET http://{{hostname}}:{{port}}/weatherforecast
+
+### Ready health checks endpoint
+
+GET http://{{hostname}}:{{port}}/healthz/ready
+
+### Live health checks endpoint
+
+GET http://{{hostname}}:{{port}}/healthz/live
+
+### All health checks endpoint
+
+GET http://{{hostname}}:{{port}}/healthz/all
